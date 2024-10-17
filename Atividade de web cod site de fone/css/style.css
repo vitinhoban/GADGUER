@@ -1,0 +1,185 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+/* Faça seu código aqui */
+
+
+
+header { 
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 2%;
+}
+
+header ul{
+	display: flex;
+	gap: 48px;
+	list-style-type: none;
+	align-items: center;
+}
+
+header a{
+	color: #505050;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+
+
+
+
+main{
+	padding: 48px 0;
+	margin: 0;
+}
+
+.section-topo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+}
+
+.section-topo aside{
+	max-width: 490px;	
+}
+
+.section-topo aside h1{
+	color: #040315;
+	font-size: 54px;
+	padding: 0% 0% 32px;
+}
+
+.section-topo aside h3{
+	font-size: 64px;
+	color: #2E68FF;
+	padding: 45px 0%;
+}
+
+aside .desc-production{
+	color: #505050;
+	font-size: 18px;
+}
+
+aside .texto{
+	color: #505050;
+	padding: 32px 0%;
+}
+.section-topo a button{
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #2E68FF;
+	padding: 13px 54px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+
+.padding-pg{
+	padding: 168px 0;
+}
+
+.section-texto{
+	margin-top: 26px;
+	text-align: center;
+}
+.section-texto h5{
+	color: #2E68FF;
+	font-size: 20px;
+}
+
+.section-texto h1{
+	font-size: 64px;
+}
+
+.desc-producton-flex{
+	gap: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 30px;
+}
+
+.desc-production-flex a{
+	text-decoration: none;
+	color:#505050
+}
+
+.padding-pg{
+	padding: 200px 0;
+}
+
+.sessao3 aside{
+	width: 568px;
+	color:#fff;
+}
+
+.sessao3{
+	display: flex;
+	background-color: #2E68FF;
+	padding: 96px;
+	flex-direction: row;
+	justify-content: center;
+	gap: 90px;
+}
+
+.secao3 .texto1{
+	font-size: 54px;
+	padding: 60px 0%;
+}
+
+.padding-pg{
+	padding: 168px 0;
+}
+
+footer{
+	background-color: #1a1a1a;
+	display: flex;
+	padding: 45px;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+footer ul{
+	display: flex;
+	list-style-type: none;
+	gap: 48px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+ 
